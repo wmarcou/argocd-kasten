@@ -29,6 +29,6 @@ spec:
             configMapKeyRef:
               name: forbidden-species
               key: species      
-        image: docker.io/bitnami/mysql:8.0.23-debian-10-r0
+        image: mysql:8.0
         name: data-job
       restartPolicy: Never
